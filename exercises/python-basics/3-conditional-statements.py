@@ -4,14 +4,17 @@
 # TODO: Use the below variables to write conditional statements using if, elif and else statements.
 
 a = 57
-b = 100
+b = 57
 
 # if a is equal to b
-print("A is equal to B.")
+if a == b and b > 60:
+    print("A is equal to B.")
 
 # elif b is equal to 100
-print("B is equal to 100.")
+elif b == 100:
+    print("B is equal to 100.")
 
 # else
-print("Neither A is equal to B nor B is equal to 100.")
+else:
+    print("Neither A is equal to B nor B is equal to 100.")
 

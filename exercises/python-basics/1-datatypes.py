@@ -2,27 +2,33 @@
 
 # This file demonstrates the use of different data types in Python.
 
-# TODO: Write correct value types to variables.
+# Assign a value of each type.
 
-a = ...              # String 
-b = ...              # Integer
-c = ...              # Float
-d = ...              # Boolean
+a = "Hello"          # String
+b = 42               # Integer
+c = 3.14             # Float
+d = True             # Boolean
 
-# TODO: Print values.
+# Print the values.
+print(a, b, c, d)
 
-# TODO: Print types of values.
+# Print their types.
+print(type(a), type(b), type(c), type(d))
 
 # ----------------------------------------------
 
 """Lists and dictionaries"""
 
-# TODO: Make a list of 5 numbers and a string and assign it to a variable.
-my_list = None        # List
+# Make a list of five numbers and one string.
+my_list = [1, 2, 3, 4, 5, "Hello"]  # List
 
-# TODO: Print the length of the list.
+# Print the length of the list.
+print(len(my_list))
 
-# TODO: Make a dictionary with 3 key-value pairs and assign it to a variable.
-my_dict = None        # Dictionary
+# Make a dictionary with three key-value pairs.
+my_dict = {"name": "Alice", "age": 20, "student": True}  # Dictionary
 
-# TODO: Print keys, values, key-value pairs.
+# Print its keys, values, and key-value pairs.
+print(my_dict.keys())
+print(my_dict.values())
+print(my_dict.items())

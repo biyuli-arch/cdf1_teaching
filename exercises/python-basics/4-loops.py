@@ -7,10 +7,13 @@
 # TODO: Write a while loop that prints break_condition and increments it, until it reaches 5
 
 break_condition = 0
+while break_condition < 10:
+    
+    break_condition += 1
+    print(break_condition)
 
-...
-
-print("out of while loop")
+else:
+    print("out of while loop")
 
 # ----------------------------------------------
 
@@ -19,7 +22,7 @@ print("out of while loop")
 # For-loop is a control flow statement for specifying iteration, which allows code to be executed repeatedly.
 
 # TODO: Iterate over pets, printing each one
-
 pets = ["dog", "cat", "horse", "rabbit", "snake"]
 
-print(pet)
+for pet in pets:
+    print(pet)
